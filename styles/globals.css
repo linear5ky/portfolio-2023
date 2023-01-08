@@ -1,5 +1,5 @@
 :root {
-  --max-width: 1100px;
+  --max-width: 1200px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
@@ -8,6 +8,16 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+
+  --midnight-blue: #03045E;
+  --cornflower-blue: #023E8A;
+  --starcommand-blue: #0077B6;
+  --green-blue: #0096C7;
+  --pacific-blue: #00B4D8;
+  --sky-blue:   #48CAE4;
+  --middle-blue: #90E0EF;
+  --blizzard-blue: #ADE8F4;
+  --light-cyan: #CAF0F8;
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
@@ -86,13 +96,14 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  color: #000;
+  background: var(--pacific-blue);
+  /*background: linear-gradient(
       to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
+      rgb(var(--midnight-blue))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var( --midnight-blue));*/
 }
 
 a {
