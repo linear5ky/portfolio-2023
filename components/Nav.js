@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import { useRouter } from "next/router";
 
+
 export default function Nav() {
   const router = useRouter();
   // console.log(router.asPath);
@@ -13,11 +14,20 @@ export default function Nav() {
   }, []);
 
   return (
-    <div className="max-w-6xl select-none  mx-auto px-4 py-10 md:py-20">
-        <div>
-            Navbar111
-      </div>
+    <div class="topbar">
+      
+          <div class="topbar-left"><a href="tel:07875122876">07875122876</a></div>
+          <nav class="topbar-right">
+                <ul>
+                  <li><a href="">Home</a></li>
+                  <li><a href="">About</a></li>
+                  <li><a href="">Latest Work </a></li>
+                  <li> <a href="">Services</a></li>
+                  <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        
     </div>
-  );
+    );
 }
  

@@ -1,0 +1,12 @@
+.topbar {
+    background:var( --green-blue); 
+    width:100%; 
+    color:#fff; 
+    padding:var(--trim);
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.topbar ul {list-style:none; display:flex; justify-content:space-between; align-items: center; }
+.topbar li {padding:5px;}

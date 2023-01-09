@@ -1,9 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap');
+
 :root {
-  --max-width: 1200px;
+  --max-width: 1300px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --trim: 30px;
+  --font-header:  'Inter', sans-serif;
+  --font-body: 'Inter', sans-serif;
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -98,6 +101,7 @@ body {
 body {
   color: #000;
   background: var(--pacific-blue);
+  font-family: var(--font-body);
   /*background: linear-gradient(
       to bottom,
       transparent,
@@ -111,8 +115,18 @@ a {
   text-decoration: none;
 }
 
+
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
+}
+
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+
+  padding: 0 var(--trim);
 }
