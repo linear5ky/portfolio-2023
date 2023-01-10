@@ -14,20 +14,24 @@ export default function Nav() {
   }, []);
 
   return (
-    <div class="topbar">
-      
-          <div class="topbar-left"><a href="tel:07875122876">07875122876</a></div>
-          <nav class="topbar-right">
-                <ul>
-                  <li><a href="">Home</a></li>
-                  <li><a href="">About</a></li>
-                  <li><a href="">Latest Work </a></li>
-                  <li> <a href="">Services</a></li>
-                  <li><a href="">Contact</a></li>
-                </ul>
-            </nav>
-        
-    </div>
+  <div class="topbar-wrapper">
+      <div class="container">
+        <div class="topbar">
+          
+              <div class="topbar-left"><a href="tel:07875122876">07875122876</a></div>
+              <nav class="topbar-right">
+                    <ul>
+                      <li><a href="">Home</a></li>
+                      <li><a href="">About</a></li>
+                      <li><a href="">Latest Work </a></li>
+                      <li> <a href="">Services</a></li>
+                      <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+            
+        </div>
+      </div>
+  </div>
     );
 }
  

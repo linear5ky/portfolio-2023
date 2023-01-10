@@ -1,10 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
+import 'normalize.css';
+
 import styles from '../styles/Home.module.css'
 import Nav from "../components/Nav";
+import Hero from "../components/Hero";
+
 const inter = Inter({ subsets: ['latin'] })
-console.log(styles);
+
 export default function Home() {
   return (
     <>
@@ -16,12 +20,16 @@ export default function Home() {
       </Head>
 
   
-         <Nav />
-          <main className={styles.main}>
+      <Nav />
+      <Hero />
+
+         
+         {/* <main className={styles.main}>
             <div className={styles.description}>
               <p>sssssssss ssksks sksks sss</p>
             </div>
-        </main>
+  </main> */}
+       
     
     </>
   )

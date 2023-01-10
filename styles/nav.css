@@ -1,3 +1,10 @@
+
+.topbar-wrapper {
+    background:var( --green-blue); 
+    width:100%; 
+    max-height:100px; 
+}
+
 .topbar {
     background:var( --green-blue); 
     width:100%; 
