@@ -9,7 +9,9 @@ import Nav from "../components/Nav";
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
 import Services from "../components/Services"; 
+import Tech from "../components/Tech"; 
 
+import Footer from "../components/Footer"; 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -27,6 +29,9 @@ export default function Home() {
       <Hero />
       <Projects />
       <Services />
+      <Tech />
+ 
+      <Footer />
          
          {/* <main className={styles.main}>
             <div className={styles.description}>

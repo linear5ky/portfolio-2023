@@ -71,9 +71,32 @@ export default function Projects() {
                                 />
 
                         </div>
+                    </article>
 
 
-</article>
+                    <article class="project">
+
+                      <div class="project-content">
+                          <div class="inner">
+                                  <h4>TCL Cloud</h4>
+                                  <p>Custom web app written in Laravel</p>
+                          </div>
+                      </div>
+
+
+                      <div class="project-image">
+
+                          
+                          <Image
+                              src="/images/portfolio-follwells.jpg"
+                              alt="Next.js Logo"
+                              layout="fill"
+                              className="custom-img"
+
+                              />
+
+                      </div>
+                      </article>
                 
             </section>
     

@@ -24,7 +24,7 @@
   --middle-blue: #90E0EF;
   --blizzard-blue: #ADE8F4;
   --light-cyan: #CAF0F8;
-
+  --black: #000;
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
     #16abff33 0deg,
@@ -143,7 +143,7 @@ section {margin-top:50px auto;}
   height: calc(100vh - 100px);
 }
 
-h1,h2,h3,h4,h5,h5,p {margin: 0.67em 0;}
+h1,h2,h3,h4,h5,h5,p, a {margin: 2rem 0; font-weight:500; color:#FFF !important;}
 
 h3 {font-size:2rem;}
 
