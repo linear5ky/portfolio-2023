@@ -10,7 +10,7 @@ import Hero from "../components/Hero";
 import Projects from "../components/Projects";
 import Services from "../components/Services"; 
 import Tech from "../components/Tech"; 
-
+import Reviews from "../components/Reviews"; 
 import Footer from "../components/Footer"; 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -30,7 +30,7 @@ export default function Home() {
       <Projects />
       <Services />
       <Tech />
- 
+      <Reviews />
       <Footer />
          
          {/* <main className={styles.main}>

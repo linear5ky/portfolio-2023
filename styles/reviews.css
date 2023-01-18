@@ -1,0 +1,39 @@
+.reviews {display:grid;
+
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "primary secondary" 
+                            "primary secondary"
+                            "primary tertiary"
+                            "primary tertiary";
+        grid-gap:1rem;
+        
+
+}
+
+.review {
+    padding:50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.review.primary {
+    grid-area: primary;
+    background:var(   --green-blue);
+    grid-gap:1rem;
+    align-items:flex-start;
+}
+
+
+.review.secondary {
+    grid-area: secondary;
+    background:var(--middle-blue);
+}
+
+
+.review.tertiary {
+    grid-area: tertiary;
+    background:var(--sky-blue);
+}

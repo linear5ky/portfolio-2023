@@ -93,6 +93,5 @@
 
 .project:nth-child(2)  .project-image  { 
     grid-column: 5 / -1;
-    
-  
+
 }
