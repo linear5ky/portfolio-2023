@@ -12,7 +12,11 @@ import Services from "../components/Services";
 import Tech from "../components/Tech"; 
 import Reviews from "../components/Reviews"; 
 import Footer from "../components/Footer"; 
+
+
+
 const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Home() {
   return (
