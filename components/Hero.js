@@ -17,7 +17,7 @@ export default function Hero() {
   return (
 
     
-    <section class="fullheight flex"  >
+    <section class="flex fullheight-mobile-up extraPaddingTopBottom"  >
             <div class="container">
     
                         <div class="hero">
@@ -29,8 +29,8 @@ export default function Hero() {
                                           
                                           >
                                   <h1>Hi, I'm <span class="name">Marcus</span></h1>
-                                  <h2>I am a freelance full stack developer based in Staffordshire.</h2>
-                                  <p>I build custom website solutions using Wordpress, Magento, Laravel and Shopify.</p>
+                                  <h2>I am a <span class="bold">freelance full stack developer</span> based in Staffordshire.</h2>
+                                  <p>I build <span class="bold">custom website solutions</span> using Wordpress, Magento, Laravel and Shopify.</p>
                               </motion.div>
 
 

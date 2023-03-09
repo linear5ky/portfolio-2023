@@ -30,7 +30,7 @@ export default function Projects() {
 
       <div class="container">
 
-        <h3>Projects</h3>  
+        <h3>Recent Projects</h3>  
 
             <motion.section class="projects"
              variants={fade}
@@ -47,7 +47,7 @@ export default function Projects() {
                       <div class="project-content">
                              <div class="inner">
                                     <h4>TCL Cloud</h4>
-                                    <p>Custom web app written in Laravel</p>
+                                    <p>Custom web application writte in in Laravel.</p>
                             </div>
                         </div>
 
@@ -80,7 +80,9 @@ export default function Projects() {
                         <div class="project-content">
                             <div class="inner">
                                     <h4>TCL Cloud</h4>
-                                    <p>Custom web app written in Laravel</p>
+                                    <p>Custom website written in Wordpress. 
+                            
+                                    </p>
                             </div>
                         </div>
 

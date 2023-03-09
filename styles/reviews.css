@@ -1,14 +1,27 @@
 .reviews {display:grid;
 
+        grid-template-columns: 1fr;
+        grid-template-areas: "primary" 
+                            "secondary"
+                            " tertiary";                     
+        grid-gap:1rem;
+        
+
+}
+
+@media (min-width: 768px) {
+
+    .reviews {
+
         grid-template-columns: 2fr 1fr;
         grid-template-rows: 1fr 1fr;
         grid-template-areas: "primary secondary" 
                             "primary secondary"
                             "primary tertiary"
                             "primary tertiary";
-        grid-gap:1rem;
+      
         
-
+    }
 }
 
 .review {
