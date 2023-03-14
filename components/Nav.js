@@ -5,6 +5,8 @@ import {motion} from 'framer-motion';
 import { container, item } from "./Animation";
 import {IconContext} from "react-icons"
 import { RiMenu2Line } from "react-icons/ri"; 
+import navItems from "../constants/NavItems";
+import contactItems from "../constants/ContactItems";
 
 export default function Nav() {
   const router = useRouter();
@@ -34,14 +36,13 @@ export default function Nav() {
              
            
 
-                    <div class="topbar-left"><motion.a href="tel:07875122876">07875122876</motion.a></div>
+                    <div class="topbar-left"> <motion.a href={"tel:" + contactItems.telephone}>{contactItems.telephone}</motion.a></div>
                     <nav class="topbar-right">
                           <ul>
-                            <motion.li variants={item}><a href="">Home</a></motion.li>
-                            <motion.li variants={item}><a href="">About</a></motion.li>
-                            <motion.li variants={item}><a href="">Latest Work </a></motion.li>
-                            <motion.li variants={item}><a href="">Services</a></motion.li>
-                            <motion.li variants={item}><a href="">Contact</a></motion.li>
+						  
+                              {navItems.map((proj, idx) => (
+                                  <motion.li variants={item}><a href="">{proj}</a></motion.li>
+                              ))}
                           </ul>
                       </nav>
                   
