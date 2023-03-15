@@ -177,7 +177,7 @@ section {margin-top:50px auto;}
 
 h1,h2,h3,h4,h5,h5 {font-family: var(--font-header);}
 h1,h2,h3,h4,h5,h5,p {margin: 2rem 0; font-weight:500; color:#FFF !important;}
-a { color:#FFF !important;}
+
 h3 {font-size:2rem;}
 
 .custom-img {
@@ -206,3 +206,4 @@ article {margin-bottom:0 !important;}
 .extraPaddingTopBottom {padding-top:70px; padding-bottom:70px;}
 .bold {font-weight:700;}
 .show {opacity:1;}
+.btn {background:var(--light-cyan); color: var(--black);}

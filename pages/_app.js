@@ -11,6 +11,17 @@ import '../styles/services.css'
 import '../styles/tech.css'
 import '../styles/reviews.css'
 import '../styles/footer.css'
+import '../styles/contact.css'
+
+import Hero from "../components/Hero";
+import Projects from "../components/Projects";
+import Services from "../components/Services"; 
+import Tech from "../components/Tech"; 
+import Reviews from "../components/Reviews"; 
+
+import Breakpoints from "../components/Breakpoints"; 
+
+
 import {useMediaQuery,useTheme } from '@mui/material';
 //import { useMediaQuery } from 'react-responsive';
 
@@ -38,8 +49,8 @@ function MyApp({ Component, pageProps }) {
    
 
       {isDesktop  && <Nav>Soz Chest</Nav>}
-
       {isTablet   && <NavMobile>Soz Chest</NavMobile>}
+      {isMobile   && <NavMobile>Soz Chest</NavMobile>}
 
       <Component {...pageProps} />
       <Footer />

@@ -1,6 +1,6 @@
 
 .topbar-wrapper {
-    background:var( --black); 
+    background:var(   --white); 
     width:100%; 
     max-height:100px;
     padding:var(--trim-small);
@@ -15,15 +15,13 @@
 }
 
 .topbar {
-
     width:100%; 
-    color:#fff; 
     display:flex;
     justify-content:space-between;
     align-items: center;
 }
 
-
+.topbar a, nav a {color: var(--black) !important; font-weight:400;}
 
 .topbar ul {list-style:none; display:flex; justify-content:space-between; align-items: center; }
 .topbar li {padding:5px;}
@@ -31,17 +29,20 @@
 nav {
 opacity:0;
 position:absolute;
-background: var(--black);
+background: var(--white);
 width:100%;
 padding:0;
 margin:0;
-top:50px;
+top:67px;
 left:0;
 z-index:10;
 }
 
+
+
 nav ul {padding-left:var(--trim) !important; display:block !important; width:100%;}
 nav ul li {width:100%; }
+
 @media (min-width: 899px) {
     nav {display:flex !important; opacity:1;
     position: relative;

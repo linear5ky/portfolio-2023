@@ -11,7 +11,7 @@ import Projects from "../components/Projects";
 import Services from "../components/Services"; 
 import Tech from "../components/Tech"; 
 import Reviews from "../components/Reviews"; 
-
+import Contact from "../components/Contact"; 
 import Breakpoints from "../components/Breakpoints"; 
 
 
@@ -26,11 +26,12 @@ export default function Home() {
     <>
     
   
-      <Hero />
+      <Hero  />
       <Projects />
       <Services />
       <Tech />
-      <Reviews /> 
+      <Reviews />
+      <Contact />  
    
 
          {/* <main className={styles.main}>
