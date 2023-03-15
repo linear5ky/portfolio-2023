@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import Link from 'next/link'
 import { useRouter } from "next/router";
 import {motion} from 'framer-motion';
 import { container, item } from "./Animation";
@@ -7,6 +7,7 @@ import {IconContext} from "react-icons"
 import { RiMenu2Line } from "react-icons/ri"; 
 import navItems from "../constants/NavItems";
 import contactItems from "../constants/ContactItems";
+
 
 export default function Nav() {
   const router = useRouter();
@@ -40,9 +41,13 @@ export default function Nav() {
                     <nav class="topbar-right">
                           <ul>
 						  
-                              {navItems.map((proj, idx) => (
-                                  <motion.li variants={item}><a href="">{proj}</a></motion.li>
-                              ))}
+                              {navItems.items.map((proj, idx) => (
+                                  <motion.li variants={item}><Link href={"#" + proj.href} smooth spy to={proj.href}>{proj.name}</Link></motion.li>
+       
+                                ))}
+
+                                
+                        
                           </ul>
                       </nav>
                   

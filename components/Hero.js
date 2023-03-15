@@ -17,7 +17,7 @@ export default function Hero() {
   return (
 
     
-    <section class="flex fullheight-mobile-up extraPaddingTopBottom"  >
+    <section class="flex fullheight-mobile-up extraPaddingTopBottom"  id="about" >
             <div class="container">
     
                         <div class="hero">

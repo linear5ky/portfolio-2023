@@ -28,7 +28,7 @@ export default function Projects() {
 
   return (
 
-      <div class="container">
+      <div class="container" id="projects">
 
         <h3>Recent Projects</h3>  
 
