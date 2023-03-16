@@ -24,6 +24,7 @@
   --blizzard-blue: #ADE8F4;
   --light-cyan: #CAF0F8;
   --black: #000;
+  --pink: #e8c2eb;
 
   --desktop: 1024px;
   --tablet: 768px;
@@ -128,25 +129,20 @@ a {
   text-decoration: none;
 }
 
-
-
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
 }
 
-
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
-
   padding: 0 var(--trim);
 }
 
 
 section {margin-top:50px auto;}
-
 
 .flex {display: flex; align-items: center;}
 .fullheight {
@@ -157,10 +153,7 @@ section {margin-top:50px auto;}
   .fullheight-mobile-up {
     height: calc(100vh - 100px);
   }
-
-
 }
-
 
 @media (max-width: 899px) {
   .hide-desktop-down {
@@ -171,8 +164,6 @@ section {margin-top:50px auto;}
     justify-content: space-between;
   }
 }
-
-
 
 
 h1,h2,h3,h4,h5,h5 {font-family: var(--font-header);}
@@ -194,9 +185,7 @@ h3 {font-size:2rem;}
   position: unset !important;
 }
 
-
 .glow {
-
   border-radius: var(--border-radius);
   background: var(--card-background-color);
   box-shadow: var(--card-box-shadow);
@@ -206,4 +195,6 @@ article {margin-bottom:0 !important;}
 .extraPaddingTopBottom {padding-top:70px; padding-bottom:70px;}
 .bold {font-weight:700;}
 .show {opacity:1;}
-.btn {background:var(--light-cyan); color: var(--black);}
+.btn {background:var(--pink); color: var(--white); padding:10px 20px; font-weight:700; text-transform:uppercase;  display:inline-block; transition:all 0.3s ease-in-out;}
+.btn.large {width:100%; text-align:center;}
+a:hover {text-decoration: none;}

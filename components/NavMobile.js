@@ -12,7 +12,7 @@ export default function NavMobile() {
   const router = useRouter();
   const [mounted, setMounted] = useState(false);
   const [isActive, setActive] = useState("false");
-
+  let iconStyles = { color: "white", fontSize: "1.5em" }
 
   useEffect(() => {
     setMounted(true);
@@ -38,7 +38,8 @@ export default function NavMobile() {
 
             
                <a href="" class="mobile-menu" onClick={handleClick}>
-                    <RiMenu2Line size={35}/>
+                    <RiMenu2Line size={45}  color={"#fff"}  />
+            
                 </a>
 
                 <a href={"tel:" + contactItems.telephone}>{contactItems.telephone}</a>
