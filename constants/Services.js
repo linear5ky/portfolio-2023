@@ -4,17 +4,22 @@ const services= {
     items: [
         {
             name:   'Custom Web Development',
-            description: <Fragment><p>Do you have an idea for the next big thing? I can help bring this  idea into reality </p>        
-            <p>From custom web apps, plugins to minimal viable projects. I can help to rapidly build this idea into reality into a working minimum viable product.</p></Fragment>,
+            description: <Fragment><p>If you have an idea for a project or require something that is not off the shelf. I can create a custom solution that is tailored to your specific requirements.</p>
+            <p>This can range from custom web apps, plugins to fully bespoke Ecommerce Stores.</p>
+
+            
+            </Fragment>,
         
         },
         {
             name: 'Agency Support',
-            description: <Fragment><p>I can be an extension to your agency with professional support around the clock.</p>
-            <p>Maybe a staff member is out sick, or the workload is too great, I can help to provide your business with the help that it needs</p></Fragment>,
+            description: <Fragment>
+            <p>If your agency is busy or lacks certain web development skills. I can became an extension to it and help to deliver more complex projects or just to help with your general workload. </p>
+            <p>My experience working with agencies has allowed me to understand the importance of communication and deadlines. I will always keep you updated on the progress of your project.</p>
+            </Fragment>,
         },
         {
-            name: 'Problem Solving',
+            name: 'Consultancy',
             description: <Fragment></Fragment>,
         },
 
