@@ -145,6 +145,8 @@ a {
 section {margin-top:50px auto;}
 
 .flex {display: flex; align-items: center;}
+.group a {padding:5px;}
+.between {justify-content: space-between;}
 .fullheight {
   height: calc(100vh - 100px);
 }

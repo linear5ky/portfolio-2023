@@ -1,5 +1,8 @@
 footer {
-background:var(--black);
+background:var(--pink);
 width:100%;
 padding:1rem;
 }
+
+footer a  {color:var(--white); font-weight:700;}
+footer p {margin:0;}

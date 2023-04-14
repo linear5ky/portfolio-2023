@@ -5,6 +5,8 @@ import {motion} from 'framer-motion';
 import { container, item } from "./Animation";
 import {IconContext} from "react-icons"
 import { RiMenu2Line } from "react-icons/ri"; 
+import {RiLinkedinBoxFill}  from "react-icons/ri";
+import {RiGithubFill} from "react-icons/ri";
 import navItems from "../constants/NavItems";
 import contactItems from "../constants/ContactItems";
 
@@ -31,14 +33,19 @@ export default function Nav() {
             <div class="container">
 
            
-      
 
               <motion.div class="topbar" variants={container} initial="hidden" animate="show">
              
            
 
-                    <div class="topbar-left"> <motion.a href={"tel:" + contactItems.telephone}>{contactItems.telephone}</motion.a></div>
-                    <nav class="topbar-right">
+                    <div class="topbar-left"> 
+                       <div class="flex group">
+                          <motion.a href={"tel:" + contactItems.telephone}>{contactItems.telephone}</motion.a>
+                          <a href={contactItems.github} target="_blank"><RiGithubFill size={30}  color={'#fff'} /></a>
+                          <a href={contactItems.linkedin}  target="_blank"><RiLinkedinBoxFill size={30}  color={'#fff'} /></a>
+                        </div>
+                      </div>
+                     <nav class="topbar-right">
                           <ul>
 						  
                               {navItems.items.map((proj, idx) => (

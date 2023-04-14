@@ -5,7 +5,10 @@ import {motion} from 'framer-motion';
 import { container, item } from "./Animation";
 import {IconContext} from "react-icons"
 import { RiMenu2Line } from "react-icons/ri"; 
+import {RiGithubFill} from "react-icons/ri";
+import {RiLinkedinBoxFill} from "react-icons/ri";
 import navItems from "../constants/NavItems";
+
 import contactItems from "../constants/ContactItems";
 
 export default function NavMobile() {
@@ -39,11 +42,13 @@ export default function NavMobile() {
             
                <a href="" class="mobile-menu" onClick={handleClick}>
                     <RiMenu2Line size={45}  color={"#fff"}  />
-            
                 </a>
 
-                <a href={"tel:" + contactItems.telephone}>{contactItems.telephone}</a>
-               
+                <div class="flex group">
+                   <a href={"tel:" + contactItems.telephone}>{contactItems.telephone}</a>
+                   <a href={contactItems.github} target="_blank"><RiGithubFill size={30}  color={'#fff'} /></a>
+                   <a href={contactItems.linkedin}  target="_blank"><RiLinkedinBoxFill size={30}  color={'#fff'} /></a>
+                 </div>
                
                   <nav 
                   //  initial={{ x: '-100px' }}
