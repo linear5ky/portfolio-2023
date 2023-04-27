@@ -19,8 +19,8 @@ const services= {
             </Fragment>,
         },
         {
-            name: 'Consultancy',
-            description: <Fragment></Fragment>,
+            name: 'Problem Solving',
+            description: <Fragment>Do you have a bug in your site that you can't fix? You can hire me a for a set amount of hours and I will help to diagnose and fix the problem.</Fragment>,
         },
 
     ]

@@ -105,13 +105,13 @@
 }
 
 @media (min-width: 768px) {
-    .project:nth-child(2)  .project-content {
+    .project:nth-child(2n)  .project-content {
 
         grid-column: 1 / 6;
     }
 
 
-    .project:nth-child(2)  .project-image  { 
+    .project:nth-child(2n)  .project-image  { 
         grid-column: 5 / -1;
 
     }

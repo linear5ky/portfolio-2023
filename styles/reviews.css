@@ -8,12 +8,12 @@
         
 
 }
-
+.reviews a {color:#FFF; font-weight:700;}
 @media (min-width: 768px) {
 
     .reviews {
 
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         grid-template-areas: "primary secondary" 
                             "primary secondary"
@@ -25,7 +25,7 @@
 }
 
 .review {
-    padding:50px;
+    padding:40px;
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -36,7 +36,7 @@
     grid-area: primary;
     background:var(   --green-blue);
     grid-gap:1rem;
-    align-items:flex-start;
+    align-items:center;
 }
 
 

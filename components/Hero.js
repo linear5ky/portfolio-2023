@@ -44,7 +44,7 @@ export default function Hero() {
                                   <div class="hero-image  circle">
                       
                                               <Image
-                                                  src="/images/me.png"
+                                                  src="/images/me2.png"
                                                   alt="Next.js Logo"
                                                   width={200}
                                                   height={200}

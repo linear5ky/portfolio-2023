@@ -3,7 +3,7 @@ export const container = {
     show: {opacity:1,
         transition: {
             delayCHildren:0.5,
-            staggerChildren: 0.25
+            staggerChildren: 1
         },
     },
 }
@@ -29,7 +29,9 @@ export const ltr  = {
 
 
 export const fade  = {
+    
     visible: { opacity: 1 },
+    
     hidden: { opacity: 0,  transition: { duration: 0.5}},
 
 }

@@ -32,17 +32,17 @@ export default function Projects() {
 
         <h3>Recent Projects</h3>  
 
-            <motion.section class="projects"
-             variants={fade}
-             initial="hidden"
-             animate={control}
-             ref={ref}
-
+            <motion.section class="projects" 
+       
             >
    
             {projects.items.map((proj, idx) => (
-                        <article class="project">
-
+                     
+                    <motion.article  class="project"       
+                         initial={{ opacity: 0, transistion: { duration: 1.5}}}
+                         whileInView={{ opacity: 1, transistion: { duration: 1.5} }}
+                          animate={control}
+                        >
                                 <div class="project-content">
                                         <div class="inner">
                                             <h4>{proj.name}</h4>
@@ -59,7 +59,7 @@ export default function Projects() {
                                             className="custom-img"
                                         />
                                  </div>            
-                         </article>
+                         </motion.article>
        
 ))}
                 
