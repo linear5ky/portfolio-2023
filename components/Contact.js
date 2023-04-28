@@ -223,11 +223,11 @@ export default function Tech() {
                         setService(e.target.value);
                     }}
                     >
-                        <option value="custom web">Service Interested In</option>
+                        <option value="">Service Interested In</option>
                         <option value="custom web">Custom Web Development</option>
                         <option value="agency cover">Agency Support</option>
-                        <option value="agency cover">Consultation</option>
-                        <option value="agency cover">Other</option>
+                        <option value="consultation">Consultation</option>
+                        <option value="other">Other</option>
                     </select>
                 
                     
