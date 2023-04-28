@@ -38,7 +38,7 @@ export default function Projects() {
    
             {projects.items.map((proj, idx) => (
                      
-                    <motion.article  class="project"       
+                    <motion.article key={proj.name} class="project"       
                          initial={{ opacity: 0, transistion: { duration: 1.5}}}
                          whileInView={{ opacity: 1, transistion: { duration: 1.5} }}
                           animate={control}
@@ -47,7 +47,7 @@ export default function Projects() {
                                         <div class="inner">
                                             <h4>{proj.name}</h4>
                                             {proj.description}
-                                            <a href={proj.href} class="btn large" rel="nofollow" target="_blank" >View Website</a>
+                                            <a href={proj.href} class="btn large" rel="noreferrer" target="_blank"  >View Website</a>
                                     </div> 
                                 </div>
 

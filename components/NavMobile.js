@@ -46,8 +46,8 @@ export default function NavMobile() {
 
                 <div class="flex group">
                    <a href={"tel:" + contactItems.telephone}>{contactItems.telephone}</a>
-                   <a href={contactItems.github} target="_blank"><RiGithubFill size={30}  color={'#fff'} /></a>
-                   <a href={contactItems.linkedin}  target="_blank"><RiLinkedinBoxFill size={30}  color={'#fff'} /></a>
+                   <a href={contactItems.github} target="_blank" rel="noreferrer"><RiGithubFill size={30}  color={'#fff'} /></a>
+                   <a href={contactItems.linkedin}  target="_blank" rel="noreferrer"><RiLinkedinBoxFill size={30}  color={'#fff'} /></a>
                  </div>
                
                   <nav 
@@ -57,7 +57,7 @@ export default function NavMobile() {
                     className={isActive ? "" : "show"}>
                     <ul>
                               {navItems.items.map((proj, idx) => (
-                                  <li ><Link href={"#" + proj.href} smooth spy to={proj.href}>{proj.name}</Link></li>
+                                  <li key={proj.name}><Link  href={"#" + proj.href} smooth spy to={proj.href}>{proj.name}</Link></li>
                               ))}
                                  
                     </ul>

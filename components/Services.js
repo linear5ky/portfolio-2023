@@ -24,7 +24,7 @@ export default function Services() {
 
             {services.items.map((proj, idx) => (
 
-              <article class="service">
+              <article key={proj.name} class="service">
                   <h3>{proj.name}</h3>
                   {proj.description}
               </article>

@@ -21,11 +21,11 @@ export default function Footer() {
         <div class="flex between">
               <div class="flex group">
                     <a href={"tel:" + contactItems.telephone}>{contactItems.telephone}</a>
-                    <a href={contactItems.github} target="_blank"><RiGithubFill size={30}  color={'#fff'} /></a>
-                    <a href={contactItems.linkedin}  target="_blank"><RiLinkedinBoxFill size={30}  color={'#fff'} /></a>
+                    <a href={contactItems.github} target="_blank" rel="noreferrer"><RiGithubFill size={30}  color={'#fff'} /></a>
+                    <a href={contactItems.linkedin}  target="_blank" rel="noreferrer" ><RiLinkedinBoxFill size={30}  color={'#fff'} /></a>
                 
               </div>
-
+ 
        
               <p>© 2023 Marcus Powell</p>
            

@@ -41,15 +41,15 @@ export default function Nav() {
                     <div class="topbar-left"> 
                        <div class="flex group">
                           <motion.a href={"tel:" + contactItems.telephone}>{contactItems.telephone}</motion.a>
-                          <a href={contactItems.github} target="_blank"><RiGithubFill size={30}  color={'#fff'} /></a>
-                          <a href={contactItems.linkedin}  target="_blank"><RiLinkedinBoxFill size={30}  color={'#fff'} /></a>
+                          <a href={contactItems.github} target="_blank" rel="noreferrer"><RiGithubFill size={30}  color={'#fff'} /></a>
+                          <a href={contactItems.linkedin}  target="_blank" rel="noreferrer"><RiLinkedinBoxFill size={30}  color={'#fff'} /></a>
                         </div>
                       </div>
                      <nav class="topbar-right">
                           <ul>
 						  
                               {navItems.items.map((proj, idx) => (
-                                  <motion.li variants={item}><Link href={"#" + proj.href} smooth spy to={proj.href}>{proj.name}</Link></motion.li>
+                                  <motion.li key={proj.name} variants={item}><Link href={"#" + proj.href} smooth spy to={proj.href}>{proj.name}</Link></motion.li>
        
                                 ))}
 

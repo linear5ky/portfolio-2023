@@ -23,7 +23,7 @@ export default function Reviews() {
       <section class="reviews">
 
         {ReviewItems.items.map((proj, idx) => (
-            <div class={"review  glow " + proj.class}>
+            <div key={proj.class} class={"review  glow " + proj.class}>
               <div class="content">
                 {proj.review}
                 <p class="author">{proj.author}  <span>{proj.company}</span></p>

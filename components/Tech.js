@@ -23,7 +23,7 @@ export default function Contact() {
       <section class="techstack">
 
             {techItems.map((proj, idx) => (             
-                  <div class="item">{proj}</div>
+                  <div key={proj} class="item">{proj}</div>
             ))}         
       </section>
     
