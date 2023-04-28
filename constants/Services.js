@@ -15,7 +15,6 @@ const services= {
             name: 'Agency Support',
             description: <Fragment>
             <p>If your agency is busy or lacks certain web development skills. I can became an extension to it and help to deliver more complex projects or just to help with your general workload. </p>
-            <p>My experience working with agencies has allowed me to understand the importance of communication and deadlines. I will always keep you updated on the progress of your project.</p>
             </Fragment>,
         },
         {

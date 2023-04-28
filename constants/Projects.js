@@ -19,8 +19,8 @@ const projects= {
         {
             name: 'Ronbrooks',
             description: <Fragment><p>A Custom Wordpress application that integrates with the AutoTrader API. Car data is kept uptodate vi a custom API and webhook.</p></Fragment>,
-            image: '/images/portfolio-rb.jpg    ',
-            href:   'https://follwells.co.uk/properties-for-sale/',
+            image: '/images/portfolio-rb.jpg',
+            href:   'https://www.ronbrooks.co.uk/used-cars/',
         },
 
         {

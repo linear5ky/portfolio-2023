@@ -2,8 +2,8 @@ export const container = {
     hidden: { opacity: 0 },
     show: {opacity:1,
         transition: {
-            delayCHildren:0.5,
-            staggerChildren: 1
+            delayCHildren:0.1,
+            staggerChildren: 0.25,
         },
     },
 }
