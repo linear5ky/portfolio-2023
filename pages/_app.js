@@ -25,7 +25,9 @@ import Breakpoints from "../components/Breakpoints";
 import {useMediaQuery,useTheme } from '@mui/material';
 //import { useMediaQuery } from 'react-responsive';
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react';
+import Script from 'next/script';
+
 
 
 
@@ -46,8 +48,25 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
    
       </Head> 
- 
+
+      <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"/>
+      <Script
+      id='google-analytics'
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{
+        __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+          gtag('config', 'UA-41340400-1', {
+            page_path: window.location.pathname,
+          });
+          `,
+        }}
+      />
+    
    
+    
 
       {isDesktop  && <Nav>Soz Chest</Nav>}
       {isTablet   && <NavMobile>Soz Chest</NavMobile>}
