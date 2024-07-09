@@ -19,7 +19,7 @@ const projects= {
             name: 'Featurewall',
             description: <Fragment><p>This API-based, custom Wordpress website enables users to choose from thousands of images to create personalized wallpaper murals. </p><p> Features include: custom Cropper,  bespoke Calendar, multiple APIs for image selection and to facilitate the order for the installation team.</p></Fragment>,
             image: '/images/portfolio-imdecor2.png',
-            href:   'https://www.featurewall.co.uk/',
+            href:   'https://featurewall.co.uk/',
         },
        {
             name:   'TCL Cloud',
