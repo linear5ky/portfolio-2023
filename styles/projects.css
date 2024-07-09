@@ -67,11 +67,14 @@
     
     display:flex;
     align-items: center;
-    padding:var(--trim);
+    padding:20px;
     flex-wrap: wrap;
-    order:-1;
+    order:1;
+    opacity: 0.97;
 
 }
+
+.project-content  a {color:var(--white); text-decoration:underline;}
 @media (min-width: 768px) {
     .project-content {
 

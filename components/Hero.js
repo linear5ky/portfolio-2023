@@ -30,7 +30,7 @@ export default function Hero() {
                                           >
                                   <h1>Hi, I&apos;m <span class="name">Marcus</span></h1>
                                   <h2>I am a <span class="bold">freelance full stack developer</span> based in Staffordshire.</h2>
-                                  <p>I build <span class="bold">custom website solutions</span> using Wordpress, Magento, Laravel and Shopify.</p>
+                                  <p>I build <span class="bold">custom website solutions</span> using Wordpress, Laravel Shopify and Next.js.</p>
                               </motion.div>
 
 
