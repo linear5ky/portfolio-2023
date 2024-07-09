@@ -10,7 +10,7 @@ const projects= {
         }, 
         {
             name: 'BuytoGive',
-            description: <Fragment><p>A custom web application built in Laravel. This site promotes marketing tools for <a href="https://buytogive.co.uk/" target="_blank">Buy to Give</a>, a marketplace that donates to charit.</p><p> Functionality includes social media API integration, enabling automatic posts on behalf of charities, and dynamic poster generation based on uploaded assets from users.</p></Fragment>,
+            description: <Fragment><p>A custom web application built in Laravel. This site promotes marketing tools for <a href="https://buytogive.co.uk/" target="_blank">Buy to Give</a>, a marketplace that donates to charity.</p><p> Functionality includes social media API integration, enabling automatic posts on behalf of charities, and dynamic poster generation based on uploaded assets from users.</p></Fragment>,
             image: '/images/portfolio-btg.jpg',
             href:   'https://www.btgmarketing.co.uk/',
         },
