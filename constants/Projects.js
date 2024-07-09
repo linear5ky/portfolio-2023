@@ -3,7 +3,7 @@ import {Fragment} from 'react'
 const projects= {
     items: [
         {
-            name: 'Elite Caretaker',
+            name: 'Elitesie for Caretakers',
             description: <Fragment><p>A custom web application built in Laravel and Vue. This site helps to digitise health and safety reports that are undertaken by hundreds of schools across the Midlands area.</p> <p>Functionality includes digital signatures, customised data tables and a full admin interface that manages everything.</p></Fragment>,
             image: '/images/portfolio-elite.jpg', 
             href:   'https://caretakersapp.elitesie.uk/',
