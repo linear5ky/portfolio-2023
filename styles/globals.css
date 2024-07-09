@@ -198,6 +198,6 @@ article {margin-bottom:0 !important;}
 .extraPaddingTopBottom {padding-top:70px; padding-bottom:70px;}
 .bold {font-weight:700;}
 .show {opacity:1;}
-.btn {background:var(--pink); color: var(--white); padding:10px 20px; font-weight:700; text-transform:uppercase;  display:inline-block; transition:all 0.3s ease-in-out;}
-.btn.large {width:100%; text-align:center;}
+.btn {background:var(--pink); color: var(--white); padding:10px 20px; font-weight:700; text-transform:uppercase;  display:inline-block; transition:all 0.3s ease-in-out; }
+.btn.large {width:100%; text-align:center; text-decoration: none;}
 a:hover {text-decoration: none;}
