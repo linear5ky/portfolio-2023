@@ -49,7 +49,7 @@ function MyApp({ Component, pageProps }) {
    
       </Head> 
 
-      <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"/>
+      <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-SPENCZHYC4"/>
       <Script
       id='google-analytics'
       strategy="afterInteractive"
@@ -58,7 +58,7 @@ function MyApp({ Component, pageProps }) {
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-          gtag('config', 'UA-41340400-1', {
+          gtag('config', 'G-SPENCZHYC4', {
             page_path: window.location.pathname,
           });
           `,
