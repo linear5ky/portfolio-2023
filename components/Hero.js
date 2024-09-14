@@ -32,7 +32,7 @@ export default function Hero() {
               </h2>
               <p>
                 I build <span class="bold">custom website solutions</span> using
-                Wordpress, Laravel Shopify and Next.js.
+                Wordpress, Laravel, Shopify and Next.js.
               </p>
             </motion.div>
           </div>
