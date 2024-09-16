@@ -23,13 +23,17 @@ export default function Hero() {
               animate={{ opacity: 1 }}
               transition={{ duration: 1, ease: "easeOut" }}
             >
-         <h1>Freelance Web Developer</h1>
-<h2>Hi, I&apos;m Marcus, a <span class="bold">freelance full stack web developer from Staffordshire.</span></h2>      
-   
+              <h1>Freelance Web Developer</h1>
+              <p>
+                Hi, I&apos;m Marcus, a{" "}
+                <span class="bold">freelance, web developer</span> from
+                Staffordshire.
+              </p>
 
-              
-        <p>I Build <span class="bold">Custom Websites</span> Using WordPress, Laravel, Shopify, and Next.js, tailored to meet the unique needs of your business.</p>
-           
+              <p>
+                I Build <span class="bold">custom websites</span> using
+                WordPress, Laravel, Shopify and Next.js.
+              </p>
             </motion.div>
           </div>
 

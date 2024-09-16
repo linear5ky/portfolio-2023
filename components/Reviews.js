@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Image from 'next/image'
+import Image from "next/image";
 import { useRouter } from "next/router";
 import ReviewItems from "../constants/Reviews";
 
@@ -14,27 +14,21 @@ export default function Reviews() {
   }, []);
 
   return (
-
- 
     <div class="container">
-      
-      <h3>Reviews</h3>
+      <h2>Reviews</h2>
 
       <section class="reviews">
-
         {ReviewItems.items.map((proj, idx) => (
-            <div key={proj.class} class={"review  glow " + proj.class}>
-              <div class="content">
-                {proj.review}
-                <p class="author">{proj.author}  <span>{proj.company}</span></p>
-              </div>
+          <div key={proj.class} class={"review  glow " + proj.class}>
+            <div class="content">
+              {proj.review}
+              <p class="author">
+                {proj.author} <span>{proj.company}</span>
+              </p>
             </div>
-
+          </div>
         ))}
-
       </section>
-    
-      
-  </div>
-);
+    </div>
+  );
 }

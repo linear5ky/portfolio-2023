@@ -131,7 +131,7 @@ export default function Tech() {
 
   return (
     <div class="container" id="contact">
-      <h3>Contact Me</h3>
+      <h2>Contact Me</h2>
 
       <section class="contact">
         <form onSubmit={handleSubmit}>

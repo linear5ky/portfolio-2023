@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Image from 'next/image'
+import Image from "next/image";
 import { useRouter } from "next/router";
 import techItems from "../constants/TechItems";
 
@@ -14,20 +14,16 @@ export default function Contact() {
   }, []);
 
   return (
-
- 
     <div class="container">
-
-       <h3>Technologies I work with</h3>  
+      <h2>Technologies I work with</h2>
 
       <section class="techstack">
-
-            {techItems.map((proj, idx) => (             
-                  <div key={proj} class="item">{proj}</div>
-            ))}         
+        {techItems.map((proj, idx) => (
+          <div key={proj} class="item">
+            {proj}
+          </div>
+        ))}
       </section>
-    
-      
-  </div>
-);
+    </div>
+  );
 }
