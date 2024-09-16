@@ -23,7 +23,7 @@ export default function Hero() {
               animate={{ opacity: 1 }}
               transition={{ duration: 1, ease: "easeOut" }}
             >
-        <h1>Freelance Full Stack Web Developer in Staffordshire | Custom Website Solutions</h1>
+        <h1>Freelance Full Stack Web Developer in Staffordshire</h1>
         <h2>I Build Custom Websites Using WordPress, Laravel, Shopify, and Next.js</h2>
         <p>Hi, I'm Marcus, and I specialize in developing custom website solutions for businesses and individuals</p>
               
