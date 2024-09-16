@@ -188,13 +188,19 @@ h4,
 h5,
 h5,
 p {
-  margin: 2rem 0;
+  margin: 1.5rem 0;
   font-weight: 500;
   color: #fff !important;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  h3 {
+    font-size: 2rem;
+  }
 }
 
 .custom-img {

@@ -2,7 +2,11 @@ import { Fragment } from "react";
 const projects = {
   items: [
     {
-      name: "Elitesie: Custom Laravel/Vue",
+      name: (
+        <>
+          Elitesie: <span>Custom Laravel</span>
+        </>
+      ),
       description: (
         <Fragment>
           <p>
@@ -21,7 +25,11 @@ const projects = {
     },
 
     {
-      name: "TCL Cloud: Custom Laravel/Vue",
+      name: (
+        <>
+          Tanker.cloud: <span>Custom Laravel</span>
+        </>
+      ),
       description: (
         <Fragment>
           <p>
@@ -41,24 +49,11 @@ const projects = {
     },
 
     {
-      name: "Ronbrooks : Custom Wordpress Plugin",
-      description: (
-        <Fragment>
-          <p>A custom WordPress plugin for the Ron Brooks Group. </p>
-          <p>
-            This plugin interacts with the AutoTrader API, allowing car data to
-            merge seamlessly from four Ron Brooks stores directly into the
-            website's backend. All data is kept up to date in near real-time
-            through a custom webhook and API endpoints."
-          </p>
-        </Fragment>
+      name: (
+        <>
+          Featurewall.co.uk: <span>Custom Wordpress</span>
+        </>
       ),
-      image: "/images/portfolio-rb.png",
-      href: "https://www.ronbrooks.co.uk/",
-    },
-
-    {
-      name: "Featurewall: Custom Wordpress theme + plugin",
       description: (
         <Fragment>
           <p>
@@ -78,7 +73,33 @@ const projects = {
     },
 
     {
-      name: "BuytoGive: Custom Laravel",
+      name: (
+        <>
+          Ronbrooks.co.uk: <span>Custom Wordpress</span>
+        </>
+      ),
+      description: (
+        <Fragment>
+          <p>A custom WordPress plugin for the Ron Brooks Group. </p>
+          <p>
+            This plugin interacts with the AutoTrader API, allowing car data to
+            merge seamlessly from four Ron Brooks stores directly into the
+            website's backend. All data is kept up to date in near real-time
+            through a custom webhook and API endpoints."
+          </p>
+        </Fragment>
+      ),
+      image: "/images/portfolio-rb.png",
+      href: "https://www.ronbrooks.co.uk/",
+    },
+
+    {
+      name: (
+        <>
+          BuytoGive: <span>Custom Laravel</span>
+        </>
+      ),
+
       description: (
         <Fragment>
           <p>
@@ -102,7 +123,11 @@ const projects = {
     },
 
     {
-      name: "Follwells: Custom Wordpress plugin and theme",
+      name: (
+        <>
+          Follwells.co.uk <span>Custom Laravel</span>
+        </>
+      ),
       description: (
         <Fragment>
           <p>

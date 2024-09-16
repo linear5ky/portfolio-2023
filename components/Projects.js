@@ -38,8 +38,9 @@ export default function Projects() {
           >
             <div class="project-content">
               <div class="inner">
-                <h4>{proj.name}</h4>
-                {proj.description}
+                <h3>{proj.name}</h3>
+                <p>{proj.description}</p>
+
                 <a
                   href={proj.href}
                   class="btn large"
