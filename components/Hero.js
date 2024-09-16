@@ -31,7 +31,7 @@ export default function Hero() {
               </p>
 
               <p>
-                I Build <span class="bold">custom websites</span> using
+                I build <span class="bold">custom websites</span> using
                 WordPress, Laravel, Shopify and Next.js.
               </p>
             </motion.div>
