@@ -24,7 +24,7 @@ export default function Hero() {
               transition={{ duration: 1, ease: "easeOut" }}
             >
          <h1>Freelance Web Developer</h1>
-<h2>Hi, I&apos;m Marcus, a <span class="bold">freelance full stack web developer from Staffordshire</span></h2>      
+<h2>Hi, I&apos;m Marcus, a <span class="bold">freelance full stack web developer from Staffordshire.</span></h2>      
    
 
               
