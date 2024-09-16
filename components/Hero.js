@@ -24,9 +24,12 @@ export default function Hero() {
               transition={{ duration: 1, ease: "easeOut" }}
             >
          <h1>Freelance Web Developer</h1>
-        <h2>I Build <span class="bold">Custom Websites</span> Using WordPress, Laravel, Shopify, and Next.js</h2>
-<p>Hi, I&apos;m Marcus, a <span class="bold">freelance full stack web developer from Staffordshire</span>. Specialising in custom website solutions tailored to meet the unique needs of your business.</p>         
+<h2>Hi, I&apos;m Marcus, a <span class="bold">freelance full stack web developer from Staffordshire</span></h2>      
+   
+
               
+        <p>I Build <span class="bold">Custom Websites</span> Using WordPress, Laravel, Shopify, and Next.js, tailored to meet the unique needs of your business.</p>
+           
             </motion.div>
           </div>
 
