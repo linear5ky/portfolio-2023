@@ -25,7 +25,7 @@ export default function Hero() {
             >
         <h1>Freelance Full Stack Web Developer in Staffordshire</h1>
         <h2>I Build Custom Websites Using WordPress, Laravel, Shopify, and Next.js</h2>
-        <p>Hi, I'm Marcus, and I specialize in developing custom website solutions for businesses and individuals</p>
+<p>Hi, I'm Marcus, a freelance full stack webb developer specializing in custom website solutions tailored to meet the unique needs of your business.</p>
               
             </motion.div>
           </div>
