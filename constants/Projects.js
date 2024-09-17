@@ -125,7 +125,7 @@ const projects = {
     {
       name: (
         <>
-          Follwells.co.uk <span>Custom Laravel</span>
+          Follwells.co.uk <span>Custom Wordpress</span>
         </>
       ),
       description: (
